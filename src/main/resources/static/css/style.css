@@ -9,6 +9,7 @@ body {
     padding: 20px;
     background: #f5f6fa;
     color: #333;
+
 }
 
 /* TITLE */
@@ -25,6 +26,7 @@ form {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
 }
 
 label {
@@ -79,9 +81,11 @@ table {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
 }
 
-th, td {
+th,
+td {
     padding: 12px;
     text-align: center;
 }
@@ -115,7 +119,12 @@ td a {
         padding: 10px;
     }
 
-    table, thead, tbody, th, td, tr {
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
         display: block;
     }
 
